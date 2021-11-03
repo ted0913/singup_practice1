@@ -47,6 +47,16 @@
         android:text="버튼"/>
 
 
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:text="이용약관 동의"/>
+
+
+
+
+
 
 
 
