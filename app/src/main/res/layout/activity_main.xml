@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#FFFF00"
+    android:background="#FFFFFF"
     android:gravity="top"
     android:padding="20dp"
         tools:context=".MainActivity">
@@ -72,25 +72,50 @@
     <RadioButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="남성"/>
-    <RadioButton
+        android:text="여성"/>
+
+        <RadioButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="남성"/>
+        android:text="해당없음"/>
+        <CheckBox
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="이용약관 동의"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
 
 
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="버튼"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
 
 
-    <CheckBox
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:checked="false"
-        android:text="이용약관 동의"/>
+            <Button
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="취소" />
+
+            <Button
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="확인"/>
+
+        </LinearLayout>
+
+
+
+
+
 
 
 
